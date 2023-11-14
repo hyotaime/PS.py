@@ -15,4 +15,4 @@ def build(s1, s2):
     return result
 
 
-print("YES" if build(s1, s2) == build(t1, t2) else "NO")
+print("Yes" if build(s1, s2) == build(t1, t2) else "No")

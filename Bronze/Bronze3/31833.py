@@ -1,0 +1,5 @@
+n = int(input())
+arr1 = list(map(int, input().split()))
+arr2 = list(map(int, input().split()))
+a, b = int(''.join(map(str, arr1))), int(''.join(map(str, arr2)))
+print(min(a, b))
